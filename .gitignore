@@ -1,0 +1,4 @@
+node_modules/
+.env
+catboost_info/
+*.zip

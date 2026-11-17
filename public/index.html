@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Abhinav Pal — A Book of Work & Learning</title>
+<meta name="description" content="An interactive, editable portfolio by Abhinav Pal.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+<header class="topbar">
+  <a class="brand" href="#" id="brandHome"><span class="brand-mark">A.</span><span>ABHINAV <small>FIELD NOTES</small></span></a>
+  <div class="top-actions"><span class="edition">PORTFOLIO · 2026</span><button class="icon-btn" id="themeBtn" title="Toggle theme">◐</button><button class="outline-btn" id="editBtn">Edit portfolio</button></div>
+</header>
+<main class="shell">
+  <section class="cover-view" id="coverView">
+    <div class="cover-meta"><span>THE WORK & THE PROCESS</span><span>VOL. 01 / 2026</span></div>
+    <div class="cover-layout">
+      <div class="cover-copy">
+        <p class="eyebrow">A PERSONAL COLLECTION</p>
+        <h1 id="coverName">A journey<br><em>in progress.</em></h1>
+        <p class="cover-sub" id="coverDescription"></p>
+        <div class="cover-code"><span>01</span><code>ideas → experiments → learning → progress</code></div>
+        <button class="primary-btn" id="openBook">Open the portfolio <span>↗</span></button>
+      </div>
+      <div class="cover-art">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="cover-monogram">A<span>.</span></div>
+        <div class="floating-note note-one">BUILD<br>WITH INTENT</div>
+        <div class="floating-note note-two">LEARN<br>BY DOING</div>
+        <div class="floating-star">✳</div>
+      </div>
+    </div>
+    <div class="cover-footer"><span id="coverTitle">Learning, Building & Exploring with Python</span><span>10 CHAPTERS <b>·</b> ONE CONTINUOUS JOURNEY</span></div>
+  </section>
+
+  <section class="book-view hidden" id="bookView">
+    <aside class="book-rail">
+      <button class="rail-back" id="backCover">← <span>Cover</span></button>
+      <div class="rail-label">CONTENTS</div>
+      <nav id="chapterNav" class="chapter-nav"></nav>
+      <div class="rail-bottom"><span class="tiny-dot"></span> A WORK IN PROGRESS</div>
+    </aside>
+    <section class="reader">
+      <div class="reader-top"><div><span class="eyebrow" id="chapterKicker">CONTENTS</span><span class="reader-count" id="readerCount">INDEX / 10</span></div><div class="reader-tools"><button class="text-btn" id="indexBtn">Index</button><button class="text-btn" id="readerEdit">Edit ↗</button></div></div>
+      <div class="page-wrap" id="pageWrap">
+        <article class="page index-page" id="indexPage">
+          <div class="page-overline">A MAP OF THIS COLLECTION <span>00 — INDEX</span></div>
+          <h2>Inside<br><em>these pages.</em></h2>
+          <p class="index-intro">Ten snapshots of ideas, collaboration, experimentation and steady progress.</p>
+          <div class="index-list" id="indexList"></div>
+          <div class="page-bottom"><span>ABHINAV PAL</span><span>CONTENTS</span></div>
+        </article>
+        <article class="page chapter-page hidden" id="chapterPage"></article>
+      </div>
+      <div class="reader-bottom"><button class="nav-page" id="prevBtn" disabled>← Previous</button><div class="progress-wrap"><span id="pageNumber">INDEX</span><div class="progress-track"><i id="progressBar"></i></div><span id="pageTotal">10 CHAPTERS</span></div><button class="nav-page next" id="nextBtn">First chapter →</button></div>
+    </section>
+  </section>
+  <footer class="site-footer"><span>DESIGNED AS A LIVING DOCUMENT</span><span>© <span id="year"></span> ABHINAV PAL</span></footer>
+</main>
+
+<div class="modal hidden" id="editModal" role="dialog" aria-modal="true" aria-labelledby="editTitle">
+ <div class="modal-card">
+  <div class="modal-head"><div><p class="eyebrow">PORTFOLIO WORKSPACE</p><h2 id="editTitle">Edit your book</h2></div><button class="close-btn" id="closeEdit">×</button></div>
+  <p class="modal-help">Edit the complete portfolio data as JSON. You can change text, links, images, add chapters or remove them. Keep the existing field structure. Export a backup before major changes.</p>
+  <textarea id="jsonEditor" spellcheck="false" aria-label="Portfolio JSON editor"></textarea>
+  <div class="modal-actions"><button class="text-btn" id="downloadBackup">Download backup</button><label class="upload-btn">Restore JSON<input type="file" id="restoreFile" accept=".json,application/json"></label><span class="spacer"></span><button class="outline-btn" id="cancelEdit">Cancel</button><button class="primary-btn" id="saveEdit">Save changes</button></div>
+  <p class="security-note">Local editing is open by default. If deployed with ADMIN_KEY, the editor will ask for that key before saving.</p>
+ </div>
+</div>
+<div class="toast" id="toast"></div>
+<script src="app.js"></script>
+</body></html>

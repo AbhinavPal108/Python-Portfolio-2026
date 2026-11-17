@@ -1,0 +1,320 @@
+{
+  "profile": {
+    "name": "Abhinav Pal",
+    "title": "Learning, Building & Exploring with Python",
+    "subtitle": "A record of ideas, experiments and progress",
+    "description": "A collection of the work I explored through Advanced Python Programming — from collaboration and inclusive learning ideas to IoT architecture, language-learning technology and problem-solving.",
+    "course": "Advanced Python Programming · Fall 2026–27",
+    "totalStars": "16.5",
+    "leetcode": "https://leetcode.com/u/AbhinavPal07/"
+  },
+  "items": [
+    {
+      "id": "item-1",
+      "title": "16.5 Stars — A Record of Progress",
+      "shortTitle": "Stars & Progress",
+      "category": "Achievement",
+      "icon": "✦",
+      "color": "#e7b85c",
+      "date": "2026",
+      "description": "I received a total of 16.5 stars across the course. This board captures the milestones and recognition I collected along the way. For me, each star represents effort, consistency and the work behind the result.",
+      "reflection": "Progress is rarely one big moment. It is a collection of smaller efforts that gradually add up.",
+      "media": [
+        {
+          "type": "image",
+          "src": "/media/stars-board.jpg",
+          "caption": "The original achievement board"
+        }
+      ],
+      "facts": [
+        {
+          "value": "16.5",
+          "label": "Total stars"
+        }
+      ]
+    },
+    {
+      "id": "item-2",
+      "title": "MyPython Tutorial Team — Inclusive Learning",
+      "shortTitle": "Inclusive Python Team",
+      "category": "Team collaboration",
+      "icon": "◎",
+      "color": "#7ba6d8",
+      "date": "Fall 2026–27",
+      "description": "During Fall Semester 2026–27, as part of Advanced Python Programming (CSI3007), I worked with my Python Tutorial Team to discuss an idea that went beyond conventional programming education. Our central thought was simple: learning Python should not be limited by an individual's difficulties or learning capabilities.",
+      "body": "We discussed the possibility of developing an inclusive learning website where people with different difficulties could explore and learn Python through an approach suited to their needs. Instead of relying entirely on conventional text-based tutorials, we explored visualizations, audio-based learning, application-based explanations with practical examples, adaptive learning and multiple learning formats such as videos and guides. We also brainstormed website navigation, learning modules, quiz sections and help resources, translating some of these ideas into preliminary handwritten layouts and feature notes. This was an early-stage conceptual discussion and design exercise, not a completed or deployed product.",
+      "reflection": "Technology should adapt to learners, rather than expecting every learner to adapt to the same teaching method.",
+      "media": [
+        {
+          "type": "image",
+          "src": "/media/team-meeting.jpg",
+          "caption": "Team discussion and collaboration"
+        },
+        {
+          "type": "image",
+          "src": "/media/team-chat.png",
+          "caption": "Team 4 — MyPython Tutorial Team"
+        },
+        {
+          "type": "image",
+          "src": "/media/team-wireframe.png",
+          "caption": "Early website wireframe"
+        },
+        {
+          "type": "image",
+          "src": "/media/team-notes.png",
+          "caption": "Feature brainstorming and learning ideas"
+        }
+      ],
+      "tags": [
+        "Inclusivity",
+        "Accessibility",
+        "Adaptive learning",
+        "Teamwork"
+      ]
+    },
+    {
+      "id": "item-3",
+      "title": "From Concept to Experience — Storyboard",
+      "shortTitle": "Storyboard Video",
+      "category": "Visual storytelling",
+      "icon": "▣",
+      "color": "#9a8bdd",
+      "date": "2026",
+      "description": "This chapter documents my storyboard through a short video presentation. The video is the primary evidence for this section; the chapter is kept open for adding individual frames, scene notes and a fuller explanation later.",
+      "reflection": "A storyboard helps turn an idea into a sequence that can be communicated and reviewed.",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://drive.google.com/file/d/1iGT2Yobcxt0jvPmgw6YsN-kU5wvxRwWO/preview",
+          "caption": "Storyboard video presentation"
+        }
+      ],
+      "links": [
+        {
+          "label": "Open storyboard video in Google Drive",
+          "url": "https://drive.google.com/file/d/1iGT2Yobcxt0jvPmgw6YsN-kU5wvxRwWO/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "item-4",
+      "title": "HearAssist — IoT Support for Auditory Processing Disorder",
+      "shortTitle": "HearAssist · APD",
+      "category": "IoT & assistive technology",
+      "icon": "⌁",
+      "color": "#e18a63",
+      "date": "2026",
+      "description": "I explored an IoT-based support system designed to assist individuals experiencing Auditory Processing Disorder (APD). The proposed device captures surrounding audio, monitors environmental noise and processes speech to make auditory information easier to understand.",
+      "body": "The architecture combines directional microphones, environmental sensors and an edge-processing device with optional cloud-based AI capabilities. The proposed system aims to provide multimodal assistance through real-time captions, speaker identification, enhanced audio and visual alerts. It also includes a feedback mechanism to explore personalization based on listening preferences and environmental conditions. This is a proposed architecture; the diagram should not be read as proof that every component has been implemented or clinically validated.",
+      "reflection": "The goal is to explore how IoT and AI might make everyday auditory interactions more accessible and manageable.",
+      "media": [
+        {
+          "type": "image",
+          "src": "/media/apd-architecture.png",
+          "caption": "Proposed system architecture: sensing, edge processing, optional cloud AI, outputs and feedback"
+        }
+      ],
+      "tags": [
+        "Directional microphones",
+        "Environmental sensing",
+        "ESP32 / Raspberry Pi",
+        "Edge processing",
+        "Optional cloud AI",
+        "Multimodal feedback"
+      ]
+    },
+    {
+      "id": "item-5",
+      "title": "Class Quiz — Second Place",
+      "shortTitle": "Class Quiz",
+      "category": "Team achievement",
+      "icon": "♛",
+      "color": "#d6ad58",
+      "date": "2026",
+      "description": "With great effort, coordination and collaboration, our team managed to secure second place in the class quiz. It was not a flawless performance. We made mistakes and missed opportunities, but we kept going, worked together and learned along the way.",
+      "body": "What made this achievement meaningful was the collective effort behind it. Every contribution mattered, and our collaboration helped us reach a result we could genuinely be proud of. This experience reinforced a simple lesson for me: success is not always about getting everything right on the first attempt. Sometimes it is about recognising mistakes, adapting, supporting one another and continuing until the effort produces results.",
+      "reflection": "We made mistakes, we learned, we persevered — and we earned our second place.",
+      "media": [
+        {
+          "type": "image",
+          "src": "/media/class-quiz.jpg",
+          "caption": "Classroom photograph from the quiz activity"
+        }
+      ],
+      "facts": [
+        {
+          "value": "2nd",
+          "label": "Team position"
+        }
+      ]
+    },
+    {
+      "id": "item-6",
+      "title": "Python Programming for Complete Beginners — Udemy",
+      "shortTitle": "Python Learning · Udemy",
+      "category": "Structured learning",
+      "icon": "⌘",
+      "color": "#9a83e6",
+      "date": "2026",
+      "description": "I joined the Python Programming for Complete Beginners course on Udemy to strengthen my programming fundamentals and develop a more structured understanding of Python. I focused on coding exercises, problem-solving activities and hands-on programming challenges.",
+      "body": "My course screenshot shows 105 of 118 lessons completed — approximately 89%. The remaining lessons are still in progress, so this is a learning milestone rather than a completed certification. Working through exercises has helped me practise translating problem statements into code, testing different approaches and improving my confidence with Python.",
+      "reflection": "The aim is not just to finish lessons, but to build a foundation I can use in practical software development.",
+      "media": [
+        {
+          "type": "image",
+          "src": "/media/udemy-progress.png",
+          "caption": "Udemy course progress — 105 of 118 lessons complete"
+        }
+      ],
+      "facts": [
+        {
+          "value": "89%",
+          "label": "Course progress"
+        },
+        {
+          "value": "105 / 118",
+          "label": "Lessons complete"
+        }
+      ],
+      "links": [
+        {
+          "label": "Open Udemy course",
+          "url": "https://www.udemy.com/share/10cvLt3@0wQY_52ddt0uvxReHXrpS0rwcCfWcbpj1nO6LjOzoU9knMV7dKG0qhx3XRHtWzk0Xw==/"
+        }
+      ]
+    },
+    {
+      "id": "item-7",
+      "title": "Learning Japanese the Python Way — Business Thesis",
+      "shortTitle": "Japanese Learning Platform",
+      "category": "EdTech product concept",
+      "icon": "あ",
+      "color": "#5eb9ae",
+      "date": "2026",
+      "description": "Learning Japanese the Python Way is a technology-driven language-learning platform that aims to simplify Japanese education through structured, interactive and practice-oriented learning. The central idea is to borrow the systematic approach of programming education and apply it to language acquisition.",
+      "body": "The initial product is a beginner-friendly Japanese numbers platform. It explores numbers 1–100 through Kanji, Hiragana and Romaji, with pronunciation support, practice activities, quizzes and progress tracking. The application was built with a NiceGUI frontend, FastAPI backend, SQLite database and SQLAlchemy, and deployed on Render. I also explored connecting it with my Pomodoro project to support a more integrated study workflow. The broader business opportunity is a unified learning environment; potential premium modules or institutional partnerships remain future possibilities that would need user research and market validation.",
+      "reflection": "The product direction is to make language learning more structured, measurable and engaging — while allowing the platform to grow as the learner progresses.",
+      "media": [
+        {
+          "type": "image",
+          "src": "/media/japanese-platform.png",
+          "caption": "Learning Japanese the Python Way — product homepage"
+        }
+      ],
+      "facts": [
+        {
+          "value": "1–100",
+          "label": "Japanese numbers"
+        },
+        {
+          "value": "3",
+          "label": "Representations: Kanji, Hiragana, Romaji"
+        }
+      ],
+      "tags": [
+        "NiceGUI",
+        "FastAPI",
+        "SQLite",
+        "SQLAlchemy",
+        "Render",
+        "Learning analytics"
+      ],
+      "links": [
+        {
+          "label": "Open deployed Japanese learning website",
+          "url": "https://learning-japanese-python-way.onrender.com/"
+        },
+        {
+          "label": "Open Pomodoro companion project",
+          "url": "https://pomodoro-website-python-project.onrender.com/"
+        }
+      ]
+    },
+    {
+      "id": "item-8",
+      "title": "Website Presentation — Project Slides",
+      "shortTitle": "Website PPT",
+      "category": "Presentation",
+      "icon": "▤",
+      "color": "#d69a58",
+      "date": "2026",
+      "description": "The presentation for the website project is included here as a companion to the product chapter. Open the slide deck to review the project presentation.",
+      "media": [
+        {
+          "type": "embed",
+          "src": "https://docs.google.com/presentation/d/1K2PJlJYefEOZX-vHqxMjB7SMHHUsbEBI/embed?start=false&loop=false&delayms=3000",
+          "caption": "Google Slides presentation"
+        }
+      ],
+      "links": [
+        {
+          "label": "Open presentation in Google Slides",
+          "url": "https://docs.google.com/presentation/d/1K2PJlJYefEOZX-vHqxMjB7SMHHUsbEBI/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "item-9",
+      "title": "Website Demo — Product Walkthrough",
+      "shortTitle": "Website Demo",
+      "category": "Demonstration",
+      "icon": "▶",
+      "color": "#d87979",
+      "date": "2026",
+      "description": "This chapter contains the demonstration video for the website. It is intended to let viewers see the product experience directly, alongside the presentation in the previous chapter.",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://drive.google.com/file/d/1RS0bctOYrHlQBMQ_nOMR19MzIOWYxpb-/preview",
+          "caption": "Website demonstration video"
+        }
+      ],
+      "links": [
+        {
+          "label": "Watch website demo in Google Drive",
+          "url": "https://drive.google.com/file/d/1RS0bctOYrHlQBMQ_nOMR19MzIOWYxpb-/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "item-10",
+      "title": "LeetCode — Coding Practice & Problem Solving",
+      "shortTitle": "LeetCode Profile",
+      "category": "Problem solving",
+      "icon": "⌁",
+      "color": "#d8a34f",
+      "date": "2026",
+      "description": "I have been using LeetCode to strengthen my programming fundamentals and develop a structured approach to problem-solving. My practice involves understanding problem statements, identifying suitable algorithms, exploring different approaches and improving solutions through test cases.",
+      "body": "The supplied profile screenshot records 37 submissions in the past year and a 91.89% acceptance rate. It also shows 9 Easy, 4 Medium and 4 Hard problems solved. I use this practice to improve logical reasoning and become more confident when approaching unfamiliar programming problems.",
+      "reflection": "For me, coding practice is not just about solving questions; it is about learning how to approach unfamiliar problems and gradually becoming a better problem solver.",
+      "media": [
+        {
+          "type": "image",
+          "src": "/media/leetcode-profile.png",
+          "caption": "LeetCode profile screenshot — AbhinavPal07"
+        }
+      ],
+      "facts": [
+        {
+          "value": "91.89%",
+          "label": "Acceptance rate"
+        },
+        {
+          "value": "37",
+          "label": "Submissions in the past year"
+        },
+        {
+          "value": "17",
+          "label": "Problems solved (9 Easy · 4 Medium · 4 Hard)"
+        }
+      ],
+      "links": [
+        {
+          "label": "Visit AbhinavPal07 on LeetCode",
+          "url": "https://leetcode.com/u/AbhinavPal07/"
+        }
+      ]
+    }
+  ]
+}

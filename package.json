@@ -1,0 +1,15 @@
+{
+  "name": "python-portfolio",
+  "version": "1.0.0",
+  "description": "Advanced Python Programming Portfolio - Abhinav Pal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^2.0.0",
+    "uuid": "^11.0.0"
+  }
+}
